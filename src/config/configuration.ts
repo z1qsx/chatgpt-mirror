@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 import { AppConfig } from './configuration.types';
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url));
-const APP_CONFIG_FILE_NAME = 'app.config.json';
+const APP_CONFIG_FILE_NAME = 'example.json';
 const APP_CONFIG_FILE_PATH = join(__dirname, '..', '..', 'config', APP_CONFIG_FILE_NAME);
 
 export default function () {
